@@ -9,6 +9,9 @@
         android:label="Daily Routine"
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyRoutine">
+        <receiver
+    android:name=".ReminderReceiver"
+    android:exported="false" />
 
         <activity
             android:name=".MainActivity"
